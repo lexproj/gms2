@@ -1,0 +1,37 @@
+//simple mov for a game like hollow knight
+//wasd mov
+//in the event key pressed W
+{
+	speed = 6;
+	direction = 0;
+	sprite_index = spr_player_run;
+}
+
+//in the event key pressed S
+
+{
+	speed = 6;
+	direction = 180;
+	sprite_index = spr_player_runs;
+}
+
+//for the jump use this
+if (place_meeting(x,y,obj_ground)){
+
+vspeed = -10;
+sprite_index = spr_player_jump
+}
+if (gravity = 0){
+
+gravity = -0.5;
+
+}
+
+
+
+
+
+
+
+
+
